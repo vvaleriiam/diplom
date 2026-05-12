@@ -122,9 +122,3 @@ Backend API: `http://localhost:3000/api`
 - `GET /api/admin/users`
 - `GET /api/admin/reviews`
 - `POST /api/admin/games`
-
-## Notes
-
-TypeORM `synchronize` is enabled for fast diploma/demo setup. For production, replace it with migrations.
-
-IGDB and Steam features require valid API credentials. Without IGDB credentials, the backend returns local catalog results only.
